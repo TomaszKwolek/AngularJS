@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "genre": "it",
+        "year": 1999,
+        "title": "Code Complete",
+        "author": "Steve McConnell"
+    },
+    {
+        "id": 2,
+        "genre": "cooking",
+        "year": 2007,
+        "title": "Zdrowe soki 101",
+        "author": "Omar Danielle"
+    },
+    {
+        "id": 3,
+        "genre": "it",
+        "year": 2001,
+        "title": "Python. Wprowadzenie",
+        "author": "Mark Lutz, David Ascher"
+    },
+    {
+        "id": 4,
+        "genre": "cooking",
+        "year": 2014,
+        "title": "Kuchenne rewolucje Nowe przepisy Magdy Gessler",
+        "author": "Gessler Magda"
+    },
+    {
+        "id": 5,
+        "genre": "it",
+        "year": 2013,
+        "title": "Sztuka programowania",
+        "author": "Donald Knuth"
+    },
+    {
+        "id": 6,
+        "genre": "horror",
+        "year": 1999,
+        "title": "Domofon",
+        "author": "Miloszewski Zygmunt"
+    },
+    {
+        "id": 7,
+        "genre": "it",
+        "year": 2003,
+        "title": "Pragmatyczny programista",
+        "author": "Andy Hunt, Dave Thomas"
+    },
+    {
+        "id": 8,
+        "genre": "it",
+        "year": 2001,
+        "title": "Wzorce projektowe",
+        "author": "Erich Gamma, Ralph Johnson, Richard Helm, John Vlissides"
+    },
+    {
+        "id": 9,
+        "genre": "horror",
+        "year": 2002,
+        "title": "Zmierzch",
+        "author": "Meyer Stephenie"
+    },
+    {
+        "id": 10,
+        "genre": "horror",
+        "year": 2001,
+        "title": "Miasteczko Salem",
+        "author": "King Stephen"
+    },
+    {
+        "id": 11,
+        "genre": "fantasy",
+        "year": 2005,
+        "title": "Gra o tron",
+        "author": "Martin George R.R."
+    }
+]

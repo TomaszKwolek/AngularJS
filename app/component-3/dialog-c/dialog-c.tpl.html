@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<style>
+  .selected {
+      background-color: #337AB7;
+      color:white;
+  }
+  .table tbody tr:hover td, .table tbody tr:hover th {
+      background-color: #337AB7;
+      color:white;
+  }
+</style>
+    <body>
+        <div class="container">
+            <h2>Filtered Books</h2>
+            <p align="right">
+            <select class="form-control" ng-model="genreFilter"  style="width: 100px; margin: 5px;">
+                <option  ng-repeat="genre in genres" value="{{genre}}">{{genre}}</option>
+            </select>
+            </p>
+            <table class="table table-hover table-bordered " style="background-color: #F5F5F5;">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody ng-repeat="book in books | filter : filterBook " ng-click="setSelectedBook($index)" ng-class="{'selected':$index == selectedRow}">
+                    <tr>
+                        <td>{{book.id}}</td>
+                        <td>{{book.title}}</td>
+                        <td>{{book.author}}</td>
+                        <td>{{book.genre }}</td>
+                        <td>{{book.year}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+</html>
